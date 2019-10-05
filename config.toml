@@ -1,0 +1,96 @@
+baseURL = "http://moritetu.github.io/"
+languageCode = "en-us"
+title = "Moritetu"
+theme = "sada"
+publishDir = "docs"
+
+canonifyurls = true
+hasCJKLanguage = true
+paginate = 5
+author = "moritetu"
+
+
+[params]
+    title = "Moritetu"
+    author = "moritetu"
+    description = "My Profile"
+    copyright = "Copyright © 2019 moritetu."
+    copyright_link = "https://github.com/moritetu"
+
+    # Profile section
+    [params.profile]
+        name = "Toru Moriyasu"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/moritetu"
+        title = "GitHub"
+		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelor's degree in Mechanical System Engineering"
+        college = "Osaka Prefecture University"
+        dates = "2000 - 2004"
+
+
+    [params.aboutme]
+        description = "I am a software developer at Okayama in Japan. I am interested in databases and data analysis systems."
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Software Developer"
+        dates = "2016 - *Present*"
+        details = "Development of functions around database software and related functions, mainly PostgreSQL."
+
+        [[params.jobs.list]]
+        position = "Web Application Engineer"
+        dates = "2007 - 2016"
+        details = "Internet advertising, affiliate system. Development of infrastructure for data analysis using fluentd, Hadoop, Hive, Sqoop, Impala etc."
+
+        [[params.jobs.list]]
+        position = "Mechanical Engineer"
+        dates = "2003 - 2007"
+        details = "Industrial machine design."
+
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "My Software"
+
+        [[params.projects.list]]
+        title = "pgenv2"
+        url = "https://github.com/moritetu/pgenv2"
+        description = "Tool to help you to manage multiple PostgreSQL versions."
+		
+		[[params.projects.list]]
+        title = "walreader"
+        url = "https://github.com/moritetu/walreader"
+        description = "Postgresql extension to read wal with sql functions."
+
+		[[params.projects.list]]
+        title = "pg_retire"
+        url = "https://github.com/moritetu/pg_retire"
+        description = "Postgresql extension to cancel the transaction."
+
+		[[params.projects.list]]
+        title = "baut"
+        url = "https://github.com/moritetu/baut"
+        description = "Testing tool run on Bash."
+
+    # Skills section
+    [params.skills]
