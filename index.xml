@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moritetu</title>
-    <link>http://moritetu.github.io/</link>
+    <link>https://moritetu.github.io/</link>
     <description>Recent content on Moritetu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://moritetu.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://moritetu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
